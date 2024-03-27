@@ -68,7 +68,7 @@ class AssortedTest {
     }
 
     @org.junit.jupiter.api.Test
-    void busStop() {
+     void busStop() {
         List<Integer[]> list = new ArrayList<>();
         list.add(new Integer[] {10,0});
         list.add(new Integer[] {3,5});
