@@ -277,6 +277,7 @@ public class Assorted {
             else if (directions.get(count).equals("WEST") && directions.get(count+1).equals("EAST")) {
                 directions.remove(count);
                 directions.remove(count);
+                count = 0;
             }
             else {
                 count++; //move on from that index to the next
