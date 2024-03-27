@@ -257,7 +257,6 @@ public class Assorted {
      *              ["WEST", "WEST"]
      */
     public static List<String> wildWest(List<String> directions) {
-        System.out.println(directions);
         int count = 0;
         while (count<directions.size()-1) {
             if (directions.get(count).equals("NORTH") && directions.get(count+1).equals("SOUTH")) {
@@ -283,7 +282,6 @@ public class Assorted {
                 count++; //move on from that index to the next
             }
         }
-        System.out.println(directions);
         return directions;
     }
 
